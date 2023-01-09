@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run FaceDetectionWithLiveStreamApp.py
+web: sh setup.sh && streamlit run LiveStreamObjectDetection.py
