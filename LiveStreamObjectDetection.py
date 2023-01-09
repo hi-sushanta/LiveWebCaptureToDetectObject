@@ -89,7 +89,7 @@ def callback(img):
     frame = img.to_ndarray(format="bgr24")
     img_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     det_object = detect_objects(net, img_rgb)
-    result = draw_objects(img_rgb, det_object, 0.7)
+    result = draw_objects(img_rgb, det_object, 0.6)
 
     img_bgr = cv2.cvtColor(result, cv2.COLOR_RGB2BGR)
 
